@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="jp" style="scroll-padding-top:50px;">
+
+<head>
+    <link rel="icon" img src="favicon.ico.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap超入門</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">    
+</head>
+
+<body>
+
+ 
+    <!-- NAV -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-success">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="./monomo.png" height="30"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse fw-bold" id="navbarNav">
+            <ul class="navbar-nav ms-auto me-2">
+                <li class="nav-item"><a class="nav-link" aria-current="page" href="#hero">ホーム</a></li>
+                <li class="nav-item"><a class="nav-link" href="#feature">特徴</a></li>
+                <li class="nav-item"><a class="nav-link" href="#showcases">詳細</a></li>
+                <li class="nav-item"><a class="nav-link" href="#price">プラン</a></li>
+                <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+                <li class="nav-item"><a class="nav-link" href="#team">メンバー</a></li>
+            </ul>
+            <a class="btn btn-dark btn-sm text-white" href="#">無料で始める</a>
+        </div>
+    </div>
+</nav>
+<!-- HERO -->
+<section class="bg-secondary text-white py-5" id="hero">
+    <div class="container overflow-hidden">
+        <div class="row flex-lg-row-reverse align-items-center">
+            <div class="col-lg-6">
+                <img src="./snow.png"
+                    class="img-fluid">
+            </div>
+            <div class="col-lg-6">
+                <p class="badge bg-success text-white mb-1">22-23年度最新版
+                </p>
+                <h1>Snow Palette　のご紹介</h1>
+                <p class="lead">お手軽な積雪深の自動モニタリング！</p>
+            </div>
+        </div>
+    </div>
+   
+</section>
+
+<!-- FEATURE -->
+<section class="bg-light py-4" id="feature">
+    <div class="container overflow-hidden">
+        <div class="row text-center">
+            <div class="col-md-4 mb-3">
+                <div class="fs-1"><i class="bi bi-film"></i></div>
+                <h5>24時間遠隔監視</h5>
+                <p class="text-success">パソコン、スマホでいつでも確認可能</p>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="fs-1"><i class="bi bi-tools"></i></div>
+                <h5>巡回業務軽減</h5>
+                <p class="text-success">職員さん、業者さんの見回りの負担軽減</p>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="fs-1"><i class="bi bi-award"></i></div>
+                <h5>コスト削減</h5>
+                <p class="text-success">必要以上の除雪を削減し、除雪費の削減</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SHOWCASES -->
+<section class="bg-light py-5" id="showcases">
+    <div class="container overflow-hidden">
+        <div class="row mb-5 align-items-center">
+            <div class="col-lg-6 order-lg-1">
+                <img class="img-fluid"
+                    src="https://doodleipsum.com/700x394/hand-drawn?i=0e05d2d124e0a86b24727ce6006b739a">
+            </div>
+            <div class="col-lg-6 order-lg-2">
+                <span class="display-3 text-info">01</span>
+                <h3>24時間遠隔監視</h3>
+                <p>遠隔で現在の積雪深をいつでも確認可能。深夜、早朝の見回りを削減することができます。</p>
+            </div>
+        </div>
+        <div class="row mb-5 align-items-center">
+            <div class="col-lg-6 order-lg-2">
+                <img class="img-fluid"
+                    src="https://doodleipsum.com/700x394/hand-drawn?i=4a51d1ffc4e6797c11a5b4c7cc33cda6">
+            </div>
+            <div class="col-lg-6 order-lg-1">
+                <span class="display-3 text-info">02</span>
+                <h3>巡回業務軽減</h3>
+                <p>人手不足で厳しい状況の中、巡回にかかる業務を削減し、その他の業務に時間を割くことが可能になります。</p>
+            </div>
+        </div>
+        <div class="row mb-5 align-items-center">
+            <div class="col-lg-6 order-lg-1">
+                <img class="img-fluid"
+                    src="https://doodleipsum.com/700x394/hand-drawn?i=0293217a2126d91159f5a6717396cbe4">
+            </div>
+            <div class="col-lg-6 order-lg-2">
+                <span class="display-3 text-info">03</span>
+                <h3>コスト削減</h3>
+                <p>除雪出動基準の適正化が実現します。それによって今まで過剰に出動していた除雪費用の削減で大幅コストカットが見込めます。
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA -->
+<section class="bg-success text-white py-5">
+    <div class="container overflow-hidden">
+        <div class="row text-center">
+            <div class="col">
+                <h3 class="py-5">除雪車出動の適正化のお手伝いさせていただきます！</h3>
+                <p class="lead">検証実験も承っております。どうぞお気兼ねなくお問い合わせください。</p>
+                <p class="lead py-3"><a href="#" class="btn btn-lg btn-outline-light text-white">導入検討</a></p>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+<!-- PRICE -->
+<section class="bg-light py-5" id="price">
+    <div class="container overflow-hidden">
+        <div class="row text-center">
+            <h3 class="mb-4">プランを比較</h3>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3">
+            <div class="col">
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header p-3">
+                        <h4 class="my-0 fw-normal">お試しプラン</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title fs-1"><span class="h4">¥</span>0<span class="h4 text-muted fw-light">
+                                /月</span></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li><i class="bi-check-lg text-success"></i>概要の把握と体験</li>
+                            <li class="text-muted text-decoration-line-through">全ての学習コンテンツ閲覧</li>
+                            <li class="text-muted text-decoration-line-through">講師による講義</li>
+                            <li class="text-muted text-decoration-line-through">メンターによるサポート</li>
+                        </ul>
+                        <button type="button" class="w-100 btn btn-lg btn-outline-dark">すぐに試す</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-4 shadow-sm border-dark">
+                    <div class="card-header py-3 border-dark">
+                        <h4 class="my-0 fw-normal">個人プラン</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title fs-1"><span class="h4">¥</span>0<span class="h4 text-muted fw-light">
+                                /月（今だけ特別！）</span></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li><i class="bi-check-lg text-success"></i>概要の把握と体験</li>
+                            <li><i class="bi-check-lg text-success"></i>全ての学習コンテンツ閲覧</li>
+                            <li class="text-muted text-decoration-line-through">講師による講義</li>
+                            <li class="text-muted text-decoration-line-through">メンターによるサポート</li>
+                        </ul>
+                        <button type="button" class="w-100 btn btn-lg btn-dark">登録・ログイン</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header py-3">
+                        <h4 class="my-0 fw-normal">法人プラン</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title fs-1"><span class="h4">¥</span>50,000〜<span
+                                class="h4 text-muted fw-light"> /月</span>
+                        </h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li><i class="bi-check-lg text-success"></i>概要の把握と体験</li>
+                            <li><i class="bi-check-lg text-success"></i>全ての学習コンテンツ閲覧</li>
+                            <li><i class="bi-check-lg text-success"></i>講師による講義</li>
+                            <li><i class="bi-check-lg text-success"></i>メンターによるサポート</li>
+                        </ul>
+                        <button type="button" class="w-100 btn btn-lg btn-outline-dark">ご相談ください</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FAQ -->
+<section class="bg-light py-5" id="faq">
+    <div class="container overflow-hidden">
+        <div class="row text-center">
+            <h3 class="mb-4">よくある質問</h3>
+        </div>
+        <div class="row align-items-center">
+            <div class="col-lg-5 mb-3">
+                <img class="img-fluid"
+                    src="https://doodleipsum.com/700x394/flat?i=bcfd79692eeea887b9f20887c5a3a401">
+            </div>
+            <div class="col-lg-7">
+                <div class="accordion" id="accordionFAQ">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading1">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                                <p>Q. コンセントの取れるところでしか設置できないのでしょうか？</p>
+                            </button>
+                        </h2>
+                        <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="heading1"
+                            data-bs-parent="#accordionFAQ">
+                            <div class="accordion-body">
+                                A. コンセント式とバッテリー式がございます。
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading2">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                                <p>Q. 工事は必要なのでしょうか？</p>
+                            </button>
+                        </h2>
+                        <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2"
+                            data-bs-parent="#accordionFAQ">
+                            <div class="accordion-body">
+                                A. 工事のご依頼は承っておりますが、専門知識がなくても設置が可能なものになっております。
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading3">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                                <p>Q. 周辺画像や温湿度もみたいです。</p>
+                            </button>
+                        </h2>
+                        <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3"
+                            data-bs-parent="#accordionFAQ">
+                            <div class="accordion-body">
+                                A. ご要望に応じて、カメラやGPS、温湿度等さまざまなカスタマイズが可能です。
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- TEAM -->
+<section class="bg-light p-5" id="team">
+    <div class="container overflow-hidden">
+        <div class="row text-center">
+            <h3 class="mb-4">担当営業</h3>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-6 col-lg-3 mb-3">
+                <div class="bg-white border shadow p-4 h-100">
+                    <img class="rounded-circle mb-3"
+                        src="https://doodleipsum.com/700x700/avatar-4?bg=87CEEB&i=3c872b28d4577889c194cbc98b672696"
+                        width="80">
+                    <p class="text-muted fw-bold">浅野光映</p>
+                    <p class="border-bottom">本社営業部　営業4課</p>
+                    <p>お気軽にお問い合わせください！現在新潟、福島県、岡山県等の自治体様で対応中。</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-3">
+                <div class="bg-white border shadow p-4 h-100">
+                    <img class="rounded-circle mb-3"
+                        src="https://doodleipsum.com/700x700/avatar-4?bg=87CEEB&i=8de3b58cab71e0ce7d1e1081418edb62"
+                        width="80">
+                    <p class="text-muted fw-bold">福留孝介</p>
+                    <p class="border-bottom">右投げ左打ち</p>
+                    <p>今シーズンをもって中日ドラゴンズを退団します。</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-3">
+                <div class="bg-white border shadow p-4 h-100">
+                    <img class="rounded-circle mb-3"
+                    src="https://doodleipsum.com/700x700/avatar-4?bg=87CEEB&i=be176fd7d38de78c85dbfba873eb723a"
+                    width="80">
+                    <p class="text-muted fw-bold">山村昂平</p>
+                    <p class="border-bottom">本社営業部　営業4課</p>
+                    <p>お気軽にお問い合わせください！現在山形県、福井県等の自治体様で対応中。</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-3">
+                <div class="bg-white border shadow p-4 h-100">
+                    <img class="rounded-circle mb-3"
+                        src="https://doodleipsum.com/700x700/avatar-4?bg=87CEEB&i=58e15545cbaaccdde1e619aa57b6f85f"
+                        width="80">
+                    <p class="text-muted fw-bold">服部令子</p>
+                    <p class="border-bottom">営業アシスタント</p>
+                    <p>営業アシスタントです。お気軽にお電話ください。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA -->
+<section class="bg-light py-5">
+    <div class="container overflow-hidden">
+        <div class="row text-center">
+            <div class="col">
+                <h3 class="py-5">ご不明点や不安な点は以下よりご相談ください</h3>
+                <p class="lead">ミタチ産業（株）本社営業部　営業4課:　052-332-2581
+                </p>
+                <p class="lead py-3"><a href="https://docs.google.com/forms/d/e/XXX/viewform" class="btn btn-lg btn-outline-dark" target="_blank">WEB問い合わせ</a></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+    <section class="bg-light py-5">
+        <div class="container overflow-hidden">
+            <div class="row text-center">
+                <div class="col">
+                    <h3 class="py-5">よくあるお困りごと</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+</head>
+
+
+<body>
+
+  <div class="container">
+    <div id="myCarousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="5000">
+          <img src="https://doodleipsum.com/1920x1080/hand-drawn?i=0e05d2d124e0a86b24727ce6006b739a" class="d-block w-100">
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h1><span style="background-color: white;">深夜早朝の見回りが負担。観測場所が奥地だと見回りすら困難。</span></h1>
+              <p class="d-none d-lg-block"><span style="background-color: skyblue;">パソコン・スマホから24時間いつでも複数箇所の状況を同時に確認できます。</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <img src="https://doodleipsum.com/1920x1080/hand-drawn?i=4a51d1ffc4e6797c11a5b4c7cc33cda6" class="d-block w-100">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1><span style="background-color: white;">除雪出動の連絡するタイミングが難しいです。</span></h1>
+              <p class="d-none d-lg-block"><span style="background-color: skyblue">ブラウザ画面で24時間いつでも確認可能で、さらにアラート機能（メール）により常時監視ができます。</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <img src="https://doodleipsum.com/1920x1080/hand-drawn?i=0293217a2126d91159f5a6717396cbe4" class="d-block w-100">
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1><span style="background-color: white;">除雪作業が行われているか確認できますか？</span></h1>
+              <p class="d-none d-lg-block"><span style="background-color: skyblue">除雪された日時がクラウドにデータとして残ります。</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+<!-- FOOTER -->
+<footer class="py-3 bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col"><a href="https://monomonotech.jp/" class="text-decoration-none text-dark">&copy; MITACHI CO.,LTD</a></div>
+            <div class="col text-end"><a href="#" class="text-decoration-none text-dark"><i class="bi bi-chevron-up"></i> Back to top</a></div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 1000,
+        once: true,
+    });
+</script>  
+
+
+
+</body>
+</html>
